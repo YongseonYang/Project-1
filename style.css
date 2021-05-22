@@ -16,7 +16,7 @@ a {
 
 img {
   width: 100%;
-  max-height: 660px;
+  max-height: 600px;
   height: auto;
   display: block;
 }
@@ -37,7 +37,7 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #f9fbe7;
-  font-size: 60px;
+  font-size: 50px;
   color: var(--text-color);
 }
 
@@ -46,15 +46,16 @@ img {
 }
 
 .main_script {
+  text-align: center;
   background-color: #f9fbe7;
   color: var(--text-color);
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
   list-style: none;
 }
 
 .main_script B {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .navbar {
@@ -109,6 +110,51 @@ img {
   right: 32px;
   font-size: 40px;
   color: var(--accent-color);
+}
+
+#grid_3 {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.news {
+  text-align: center;
+  font-size: 25px;
+  background-color: #c5e1a5;
+}
+
+.news_script {
+  text-align: center;
+  background-color: #f9fbe7;
+  font-size: 15px;
+  list-style: none;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 8px 12px;
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.footer_logo i {
+  color: var(--accent-color);
+}
+
+.footer_text {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
