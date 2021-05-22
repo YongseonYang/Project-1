@@ -208,15 +208,13 @@ a {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .news_script iframe {
-    width: 60%;
-    height: 400px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   #imgs {
     display: flex;
+  }
+
+  .news_script iframe {
+    width: 60%;
+    height: 400px;
   }
 }
