@@ -203,11 +203,12 @@ a {
   visibility: visible;
   transition: opacity 20s;
   font-size: 20px;
+  color: var(--text-color);
 }
 .conf {
   visibility: hidden;
   opacity: 1;
-  color: black;
+  color: var(--text-color);
   transition: opacity 20s;
   font-size: 30px;
 }
@@ -258,6 +259,16 @@ a {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .img_2_text {
+    font-size: 30px;
+  }
+
+  .img_3_text {
+    font-size: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #imgs {
     display: flex;
@@ -269,7 +280,6 @@ a {
     top: 10%;
     left: 25%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
   }
 
   .img_3_text {
@@ -277,7 +287,10 @@ a {
     top: 10%;
     left: 75%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+  }
+
+  .img_4 {
+    padding: 50px 100px 50px 100px;
   }
 
   .news_script iframe {
