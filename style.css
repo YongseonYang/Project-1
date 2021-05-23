@@ -1,12 +1,12 @@
 :root {
   --text-color: #263343;
-  --background-color: #f9e9e7;
+  --background-color: #fce4ec;
   --accent-color: #d49466;
 }
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro";
+  font-family: "PT Serif";
 }
 
 a {
@@ -109,25 +109,40 @@ a {
   font-size: 18px;
 }
 
+.img_2 {
+  background-color: #f9fbe7;
+}
+
 .img_2 img {
   width: 100%;
   height: 100%;
+  border-radius: 400px;
+}
+
+.img_3 {
+  background-color: #f9fbe7;
 }
 
 .img_3 img {
   width: 100%;
   height: 100%;
+  border-radius: 400px;
+}
+
+.img_4 {
+  background-color: #f9fbe7;
 }
 
 .img_4 img {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
 
 .news {
   text-align: center;
   font-size: 25px;
-  background-color: #c5e1a5;
+  background-color: #f9fbe7;
 }
 
 .news_script {
@@ -167,6 +182,20 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.hello {
+  visibility: visible;
+  transition: opacity 20s;
+  font-size: 20px;
+  padding: 20px;
+}
+.conf {
+  visibility: hidden;
+  opacity: 1;
+  color: black;
+  transition: opacity 20s;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -211,6 +240,7 @@ a {
 @media screen and (min-width: 768px) {
   #imgs {
     display: flex;
+    background-color: #f9fbe7;
   }
 
   .news_script iframe {
