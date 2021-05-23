@@ -263,6 +263,7 @@ a {
   #imgs {
     display: flex;
     background-color: #f9fbe7;
+    position: relative;
   }
 
   .img_2_text {
