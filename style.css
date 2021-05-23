@@ -259,11 +259,17 @@ a {
   }
 }
 
+#stickyNav {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  background-color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   #imgs {
     display: flex;
     background-color: #f9fbe7;
-    position: relative;
   }
 
   .img_2_text {
